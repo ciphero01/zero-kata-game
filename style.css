@@ -25,8 +25,9 @@
   transform: translateX(-50%);
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 1rem;
+  border:1px solid rgba(255, 255, 255, 0.25);
   padding: 0.5rem 3rem;
-  text-align: center;
+  /* text-align: center; */
 }
 .tic-tac-toe {
   width: 90%;
@@ -78,11 +79,13 @@
   border: 1px solid rgba(255, 255, 255, 0.25);
   padding: 0.5rem 2rem;
   cursor: pointer;
-  /* display: none; */
+ display: none;
 }
+
 .btn.active {
   display: flex;
 }
+
 .win {
   background-color: rgba(0, 255, 0, 0.3);
 }
